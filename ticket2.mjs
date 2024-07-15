@@ -15,7 +15,6 @@ function fetchTodo() {
         });
 }
 
-// Виклик функції
 fetchTodo()
     .then(todo => {
         console.log('Todo item:', todo);
